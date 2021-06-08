@@ -1,0 +1,7 @@
+﻿  binary.c
+E:\cpp_code\20210607\20210607\binary.c(32,31): warning C4013: “creatBinaryTree”未定义；假设外部返回 int
+E:\cpp_code\20210607\20210607\binary.c(32,41): warning C4047: “=”:“BNode *”与“int”的间接级别不同
+E:\cpp_code\20210607\20210607\binary.c(33,42): warning C4047: “=”:“BNOde *”与“int”的间接级别不同
+binary.obj : error LNK2019: 无法解析的外部符号 _creatBinaryTree，函数 _creatBinyTree 中引用了该符号
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+E:\cpp_code\20210607\Debug\20210607.exe : fatal error LNK1120: 2 个无法解析的外部命令
